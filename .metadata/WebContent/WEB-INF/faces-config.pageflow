@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13856704756160" configfile="/PMS/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="LoginPage" x="770" y="2482" id="pf13856711330351" referenceLink="//@navigationRule.90/@navigationCase.0/@toViewId|" outlinks="pf13856711330352 pf13856711330353 pf13856711330354 pf13856711330355" inlinks="pf13856711330352 pf13856711330356 pf13856711330357 pf13856711330358 pf13856711330359 pf138567113303510 pf138567113303511 pf138567113303512 pf138567113303513 pf138567113303614 pf138567113303615 pf138567113303616 pf138567113303617 pf138567113303618 pf138567113303619 pf138567113303620 pf138567140267886 pf138567140267887 pf138567494079795 pf138567783445898 pf138568097517999 pf1385693702250107 pf1385693702250108 pf13857462702610 pf13857462702611 pf13857585755616 pf13857662369960 pf13857753554021 pf13857753554022 pf13858326881552 pf13858326881563 pf13858379145976 pf13858379145977 pf138583848266612" path="/LoginPage.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="PMWelcomePage" x="554" y="1044" id="pf138567113303621" referenceLink="//@navigationRule.67/@fromViewId|" outlinks="pf138567113303620 pf138567778646796 pf1385689438579103 pf1385689533129105" inlinks="pf13856711330353" path="/PMWelcomePage.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="AdminWelcomePage" x="122" y="3250" id="pf138567113303623" referenceLink="//@navigationRule.55/@fromViewId|" outlinks="pf138567113303624 pf138567113303625 pf138567113303626 pf138567113303627 pf138567113303628 pf13856711330356 pf138567113303629 pf138567113303630 pf138567113303632 pf138567135696884 pf138567305882788 pf138567305882789" inlinks="pf13856711330354" path="/AdminWelcomePage.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerWelcomePage" x="994" y="2448" id="pf138567113303634" referenceLink="//@navigationRule.82/@fromViewId|" outlinks="pf13857662369960 pf13857753554033 pf13857753554034 pf13858325759780 pf138583923092713 pf138583923092714" inlinks="pf13856711330355" path="/CustomerWelcomePage.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CreatePM" x="338" y="946" id="pf138567113303735" referenceLink="//@navigationRule.33/@fromViewId|" outlinks="pf138567113303736 pf138567113303737 pf138567113303513" inlinks="pf138567113303737 pf138567113303624" path="/CreatePM.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="PMCreateSuccess" x="554" y="1428" id="pf138567113303738" referenceLink="//@navigationRule.34/@fromViewId|" outlinks="pf138567113303614" inlinks="pf138567113303736" path="/PMCreateSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CreateCustomer" x="122" y="178" id="pf138567113303739" referenceLink="//@navigationRule.8/@navigationCase.0/@toViewId|" outlinks="pf138567113303740 pf138567113303741" inlinks="pf138567113303741" path="/CreateCustomer.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerCreateSuccess" x="317" y="178" id="pf138567113303742" referenceLink="//@navigationRule.7/@navigationCase.0/@toViewId|" inlinks="pf138567113303740" path="/CustomerCreateSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ApproveCustomer" x="338" y="1330" id="pf138567113303743" referenceLink="//@navigationRule.27/@fromViewId|" outlinks="pf138567113303744 pf138567113303745 pf13856711330357" inlinks="pf138567113303625 pf138567113303745" path="/ApproveCustomer.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ApproveCustomerSuccess" x="554" y="1833" id="pf138567113303746" referenceLink="//@navigationRule.29/@fromViewId|" outlinks="pf13856711330359" inlinks="pf138567113303744" path="/ApproveCustomerSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ApproveCustomerFail" x="338" y="1714" id="pf138567113303847" referenceLink="//@navigationRule.28/@fromViewId|" outlinks="pf13856711330358" inlinks="pf138567113303626" path="/ApproveCustomerFail.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerForgotPassword" x="122" y="4849" id="pf138567113303848" referenceLink="//@navigationRule.14/@navigationCase.0/@toViewId|" outlinks="pf138567113303849 pf138567113303850" inlinks="pf138567113303850" path="/CustomerForgotPassword.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerForgotPasswordAnswer" x="338" y="4849" id="pf138567113303851" referenceLink="//@navigationRule.16/@fromViewId|" outlinks="pf138567113303852 pf138567113303853" inlinks="pf138567113303849 pf138567113303852" path="/CustomerForgotPasswordAnswer.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="PasswordChange" x="554" y="4849" id="pf138567113303854" referenceLink="//@navigationRule.18/@navigationCase.0/@toViewId|" outlinks="pf138567113303855 pf138567113303856" inlinks="pf138567113303853 pf138567113303856" path="/PasswordChange.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="PasswordChangeSuccess" x="770" y="4849" id="pf138567113303857" referenceLink="//@navigationRule.17/@navigationCase.0/@toViewId|" inlinks="pf138567113303855" path="/PasswordChangeSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DeleteCustomer" x="338" y="2098" id="pf138567113303858" referenceLink="//@navigationRule.30/@fromViewId|" outlinks="pf138567113303859 pf138567113303860 pf138567113303510" inlinks="pf138567113303627 pf138567113303859" path="/DeleteCustomer.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DeleteCustomerFail" x="338" y="2482" id="pf138567113303861" referenceLink="//@navigationRule.31/@fromViewId|" outlinks="pf138567113303511" inlinks="pf138567113303628" path="/DeleteCustomerFail.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DeleteCustomerSuccess" x="554" y="2259" id="pf138567113303962" referenceLink="//@navigationRule.32/@fromViewId|" outlinks="pf138567113303512" inlinks="pf138567113303860" path="/DeleteCustomerSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="JsonTrial" x="338" y="562" id="pf138567113303963" referenceLink="//@navigationRule.25/@navigationCase.0/@toViewId|" outlinks="pf138567113303964 pf138567113303965" inlinks="pf138567113303965 pf138567113303966" path="/JsonTrial.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="StockQuote" x="122" y="562" id="pf138567113303967" referenceLink="//@navigationRule.25/@fromViewId|" outlinks="pf138567113303966" inlinks="pf138567113303964" path="/StockQuote.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DeletePM" x="338" y="2866" id="pf138567113303968" referenceLink="//@navigationRule.41/@navigationCase.0/@toViewId|" outlinks="pf138567113303616 pf138567113303969 pf138567113303970" inlinks="pf138567113303629 pf138567113303970" path="/DeletePM.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DeletePMFail" x="338" y="3250" id="pf138567113303971" referenceLink="//@navigationRule.37/@fromViewId|" outlinks="pf138567113303615" inlinks="pf138567113303630" path="/DeletePMFail.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DeletePMSuccess" x="554" y="2685" id="pf138567113303972" referenceLink="//@navigationRule.40/@fromViewId|" outlinks="pf138567113303617" inlinks="pf138567113303969" path="/DeletePMSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerPFM" x="338" y="4060" id="pf138567113303973" referenceLink="//@navigationRule.55/@navigationCase.0/@toViewId|" outlinks="pf138567113303618 pf138567113303974 pf138567113303975 pf138567113303976 pf138567113303977 pf138567113304078" inlinks="pf138567113303974 pf138567113303975 pf138567113303976 pf138567305882789" path="/CustomerPFM.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerPMFail" x="338" y="3634" id="pf138567113304079" referenceLink="//@navigationRule.44/@fromViewId|" outlinks="pf138567113303619" inlinks="pf138567113303632" path="/CustomerPMFail.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerPFMSucess" x="554" y="4081" id="pf138567113304080" referenceLink="//@navigationRule.90/@fromViewId|" outlinks="pf138583848266612" inlinks="pf138567113303977" path="/CustomerPFMSucess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="sample" x="554" y="4465" id="pf138567113304081" referenceLink="//@navigationRule.49/@navigationCase.0/@toViewId|" inlinks="pf138567113304078" path="/sample.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ActiveAllocations" x="31" y="3564" id="pf138567113304083" referenceLink="//@navigationRule.59/@navigationCase.0/@toViewId|" outlinks="pf138567140267886 pf138567485015590 pf138567491313392 pf138567491313393 pf138567491313394" inlinks="pf138567305882788 pf138567491313392 pf138567491313393 pf138567491313394" path="/ActiveAllocations.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="NoActiveAllocations" x="15" y="3192" id="pf138567135697285" referenceLink="//@navigationRule.53/@fromViewId|" outlinks="pf138567140267887" inlinks="pf138567135696884" path="/NoActiveAllocations.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="DeleteAllocationSuccess" x="128" y="3685" id="pf138567485015691" referenceLink="//@navigationRule.60/@fromViewId|" outlinks="pf138567494079795" inlinks="pf138567485015590" path="/DeleteAllocationSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="UpdateProfilePM" x="770" y="1032" id="pf138567778647297" referenceLink="//@navigationRule.65/@navigationCase.0/@toViewId|" outlinks="pf138567783445898 pf1385680975182100 pf1385681031763102" inlinks="pf138567778646796 pf1385681031763102" path="/UpdateProfilePM.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="UpdateProfilePMSuccess" x="948" y="1056" id="pf1385680975182101" referenceLink="//@navigationRule.64/@fromViewId|" outlinks="pf138568097517999" inlinks="pf1385680975182100" path="/UpdateProfilePMSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="PMAllCustomers" x="675" y="938" id="pf1385689438582104" referenceLink="//@navigationRule.74/@fromViewId|" outlinks="pf1385693702250107 pf13857462702652 pf13857585755657" inlinks="pf1385689438579103" path="/PMAllCustomers.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="PMAllCustomersFail" x="480" y="924" id="pf1385689533133106" referenceLink="//@navigationRule.69/@fromViewId|" outlinks="pf1385693702250108" inlinks="pf1385689533129105" path="/PMAllCustomersFail.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="SuggestStocks" x="708" y="816" id="pf13857462702663" referenceLink="//@navigationRule.72/@fromViewId|" outlinks="pf13857462702664 pf13857462702610" inlinks="pf13857462702652" path="/SuggestStocks.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="StockSuggestionSucceful" x="991" y="761" id="pf13857462702665" referenceLink="//@navigationRule.76/@navigationCase.0/@toViewId|" outlinks="pf13857462702611" inlinks="pf13857462702664 pf13857593771659" path="/StockSuggestionSucceful.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="SuggestStocks1" x="601" y="792" id="pf13857585755658" referenceLink="//@navigationRule.76/@fromViewId|" outlinks="pf13857585755616 pf13857593771659" inlinks="pf13857585755657" path="/SuggestStocks1.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerPM" x="876" y="2604" id="pf13857753554075" referenceLink="//@navigationRule.80/@fromViewId|" outlinks="pf13857753554021" inlinks="pf13857753554033" path="/CustomerPM.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="NoPMFail" x="969" y="2733" id="pf13857753554076" referenceLink="//@navigationRule.81/@fromViewId|" outlinks="pf13857753554022" inlinks="pf13857753554034" path="/NoPMFail.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="UpdateCustomerProfile" x="1113" y="2340" id="pf13858325759851" referenceLink="//@navigationRule.84/@fromViewId|" outlinks="pf13858326881614 pf13858326881552" inlinks="pf13858325759780" path="/UpdateCustomerProfile.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="UpdateCustomerProfileSuccess" x="1170" y="2531" id="pf13858326881615" referenceLink="//@navigationRule.87/@fromViewId|" outlinks="pf13858326881563" inlinks="pf13858326881614" path="/UpdateCustomerProfileSuccess.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="NoStockOptionsCustomer" x="1127" y="2673" id="pf138583791460110" referenceLink="//@navigationRule.88/@fromViewId|" outlinks="pf13858379145976" inlinks="pf138583923092713" path="/NoStockOptionsCustomer.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="CustomerSuggestedStock" x="1314" y="2659" id="pf138583791460111" referenceLink="//@navigationRule.89/@fromViewId|" outlinks="pf13858379145977" inlinks="pf138583923092714" path="/CustomerSuggestedStock.jsp"/>
+  <links id="pf13856711330353" target="pf138567113303621" source="pf13856711330351" outcome="pm"/>
+  <links id="pf13856711330354" target="pf138567113303623" source="pf13856711330351" outcome="admin"/>
+  <links id="pf13856711330355" target="pf138567113303634" source="pf13856711330351" outcome="cust"/>
+  <links id="pf138567113303736" target="pf138567113303738" source="pf138567113303735" outcome="success"/>
+  <links id="pf138567113303624" target="pf138567113303735" source="pf138567113303623" outcome="success"/>
+  <links id="pf138567113303740" target="pf138567113303742" source="pf138567113303739" outcome="success"/>
+  <links id="pf138567113303625" target="pf138567113303743" source="pf138567113303623" outcome="detail-success"/>
+  <links id="pf138567113303744" target="pf138567113303746" source="pf138567113303743" outcome="success"/>
+  <links id="pf138567113303626" target="pf138567113303847" source="pf138567113303623" outcome="detail-fail"/>
+  <links id="pf138567113303849" target="pf138567113303851" source="pf138567113303848" outcome="success"/>
+  <links id="pf138567113303853" target="pf138567113303854" source="pf138567113303851" outcome="success"/>
+  <links id="pf138567113303855" target="pf138567113303857" source="pf138567113303854" outcome="success"/>
+  <links id="pf138567113303627" target="pf138567113303858" source="pf138567113303623" outcome="all-detail-success"/>
+  <links id="pf138567113303628" target="pf138567113303861" source="pf138567113303623" outcome="all-detail-fail"/>
+  <links id="pf138567113303860" target="pf138567113303962" source="pf138567113303858" outcome="success"/>
+  <links id="pf138567113303964" target="pf138567113303967" source="pf138567113303963" outcome="success"/>
+  <links id="pf138567113303966" target="pf138567113303963" source="pf138567113303967" outcome="success"/>
+  <links id="pf13856711330356" target="pf13856711330351" source="pf138567113303623" outcome="logout"/>
+  <links id="pf13856711330357" target="pf13856711330351" source="pf138567113303743" outcome="logout"/>
+  <links id="pf13856711330358" target="pf13856711330351" source="pf138567113303847" outcome="logout"/>
+  <links id="pf13856711330359" target="pf13856711330351" source="pf138567113303746" outcome="logout"/>
+  <links id="pf138567113303510" target="pf13856711330351" source="pf138567113303858" outcome="logout"/>
+  <links id="pf138567113303511" target="pf13856711330351" source="pf138567113303861" outcome="logout"/>
+  <links id="pf138567113303512" target="pf13856711330351" source="pf138567113303962" outcome="logout"/>
+  <links id="pf138567113303513" target="pf13856711330351" source="pf138567113303735" outcome="logout"/>
+  <links id="pf138567113303614" target="pf13856711330351" source="pf138567113303738" outcome="logout"/>
+  <links id="pf138567113303629" target="pf138567113303968" source="pf138567113303623" outcome="PM-get-success"/>
+  <links id="pf138567113303630" target="pf138567113303971" source="pf138567113303623" outcome="PM-get-fail"/>
+  <links id="pf138567113303615" target="pf13856711330351" source="pf138567113303971" outcome="logout"/>
+  <links id="pf138567113303616" target="pf13856711330351" source="pf138567113303968" outcome="logout"/>
+  <links id="pf138567113303969" target="pf138567113303972" source="pf138567113303968" outcome="success"/>
+  <links id="pf138567113303617" target="pf13856711330351" source="pf138567113303972" outcome="logout"/>
+  <links id="pf138567113303632" target="pf138567113304079" source="pf138567113303623" outcome="cust-pm-fail"/>
+  <links id="pf138567113303618" target="pf13856711330351" source="pf138567113303973" outcome="logout"/>
+  <links id="pf138567113303619" target="pf13856711330351" source="pf138567113304079" outcome="logout"/>
+  <links id="pf138567113303977" target="pf138567113304080" source="pf138567113303973" outcome="success"/>
+  <links id="pf138567113304078" target="pf138567113304081" source="pf138567113303973" outcome="success1"/>
+  <links id="pf138567113303620" target="pf13856711330351" source="pf138567113303621" outcome="logout"/>
+  <links id="pf13856711330352" target="pf13856711330351" source="pf13856711330351" outcome="error">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303737" target="pf138567113303735" source="pf138567113303735" outcome="error">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303741" target="pf138567113303739" source="pf138567113303739" outcome="error">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303745" target="pf138567113303743" source="pf138567113303743" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303850" target="pf138567113303848" source="pf138567113303848" outcome="error">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303852" target="pf138567113303851" source="pf138567113303851" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303856" target="pf138567113303854" source="pf138567113303854" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303859" target="pf138567113303858" source="pf138567113303858" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303965" target="pf138567113303963" source="pf138567113303963" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303970" target="pf138567113303968" source="pf138567113303968" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303974" target="pf138567113303973" source="pf138567113303973" outcome="cust-fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567113303975" target="pf138567113303973" source="pf138567113303973" outcome="pm-fail">
+    <bendPoints d1Height="-66" d2Height="-66"/>
+    <bendPoints d1Width="-94" d1Height="-66" d2Width="-94" d2Height="-66"/>
+    <bendPoints d1Width="-94" d2Width="-94"/>
+  </links>
+  <links id="pf138567113303976" target="pf138567113303973" source="pf138567113303973" outcome="pm-exist-fail">
+    <bendPoints d1Height="-96" d2Height="-96"/>
+    <bendPoints d1Width="-124" d1Height="-96" d2Width="-124" d2Height="-96"/>
+    <bendPoints d1Width="-124" d2Width="-124"/>
+  </links>
+  <links id="pf138567135696884" target="pf138567135697285" source="pf138567113303623" outcome="cust-pm-delete-fail"/>
+  <links id="pf138567140267886" target="pf13856711330351" source="pf138567113304083" outcome="logout"/>
+  <links id="pf138567140267887" target="pf13856711330351" source="pf138567135697285" outcome="logout"/>
+  <links id="pf138567305882788" target="pf138567113304083" source="pf138567113303623" outcome="cust-pm-delete-success"/>
+  <links id="pf138567305882789" target="pf138567113303973" source="pf138567113303623" outcome="cust-pm-success"/>
+  <links id="pf138567485015590" target="pf138567485015691" source="pf138567113304083" outcome="success"/>
+  <links id="pf138567491313392" target="pf138567113304083" source="pf138567113304083" outcome="pm-not-exist-fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf138567491313393" target="pf138567113304083" source="pf138567113304083" outcome="pm-fail">
+    <bendPoints d1Height="-66" d2Height="-66"/>
+    <bendPoints d1Width="-94" d1Height="-66" d2Width="-94" d2Height="-66"/>
+    <bendPoints d1Width="-94" d2Width="-94"/>
+  </links>
+  <links id="pf138567491313394" target="pf138567113304083" source="pf138567113304083" outcome="cust-fail">
+    <bendPoints d1Height="-96" d2Height="-96"/>
+    <bendPoints d1Width="-124" d1Height="-96" d2Width="-124" d2Height="-96"/>
+    <bendPoints d1Width="-124" d2Width="-124"/>
+  </links>
+  <links id="pf138567494079795" target="pf13856711330351" source="pf138567485015691" outcome="logout"/>
+  <links id="pf138567778646796" target="pf138567778647297" source="pf138567113303621" outcome="success"/>
+  <links id="pf138567783445898" target="pf13856711330351" source="pf138567778647297" outcome="logout"/>
+  <links id="pf1385680975182100" target="pf1385680975182101" source="pf138567778647297" outcome="success"/>
+  <links id="pf138568097517999" target="pf13856711330351" source="pf1385680975182101" outcome="logout"/>
+  <links id="pf1385681031763102" target="pf138567778647297" source="pf138567778647297" outcome="fail">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+  <links id="pf1385689438579103" target="pf1385689438582104" source="pf138567113303621" outcome="get-all-success"/>
+  <links id="pf1385689533129105" target="pf1385689533133106" source="pf138567113303621" outcome="get-all-fail"/>
+  <links id="pf1385693702250107" target="pf13856711330351" source="pf1385689438582104" outcome="logout"/>
+  <links id="pf1385693702250108" target="pf13856711330351" source="pf1385689533133106" outcome="logout"/>
+  <links id="pf13857462702652" target="pf13857462702663" source="pf1385689438582104" outcome="success"/>
+  <links id="pf13857462702664" target="pf13857462702665" source="pf13857462702663" outcome="success"/>
+  <links id="pf13857462702610" target="pf13856711330351" source="pf13857462702663" outcome="logout"/>
+  <links id="pf13857462702611" target="pf13856711330351" source="pf13857462702665" outcome="logout"/>
+  <links id="pf13857585755657" target="pf13857585755658" source="pf1385689438582104" outcome="fail"/>
+  <links id="pf13857585755616" target="pf13856711330351" source="pf13857585755658" outcome="logout"/>
+  <links id="pf13857593771659" target="pf13857462702665" source="pf13857585755658" outcome="success"/>
+  <links id="pf13857662369960" target="pf13856711330351" source="pf138567113303634" outcome="logout"/>
+  <links id="pf13857753554033" target="pf13857753554075" source="pf138567113303634" outcome="pm-get-success"/>
+  <links id="pf13857753554034" target="pf13857753554076" source="pf138567113303634" outcome="pm-get-fail"/>
+  <links id="pf13857753554021" target="pf13856711330351" source="pf13857753554075" outcome="logout"/>
+  <links id="pf13857753554022" target="pf13856711330351" source="pf13857753554076" outcome="logout"/>
+  <links id="pf13858325759780" target="pf13858325759851" source="pf138567113303634" outcome="update-success"/>
+  <links id="pf13858326881614" target="pf13858326881615" source="pf13858325759851" outcome="success"/>
+  <links id="pf13858326881552" target="pf13856711330351" source="pf13858325759851" outcome="logout"/>
+  <links id="pf13858326881563" target="pf13856711330351" source="pf13858326881615" outcome="logout"/>
+  <links id="pf13858379145976" target="pf13856711330351" source="pf138583791460110" outcome="logout"/>
+  <links id="pf13858379145977" target="pf13856711330351" source="pf138583791460111" outcome="logout"/>
+  <links id="pf138583848266612" target="pf13856711330351" source="pf138567113304080" outcome="logout"/>
+  <links id="pf138583923092713" target="pf138583791460110" source="pf138567113303634" outcome="no-stocks"/>
+  <links id="pf138583923092714" target="pf138583791460111" source="pf138567113303634" outcome="stocks-present"/>
+</pageflow:Pageflow>
